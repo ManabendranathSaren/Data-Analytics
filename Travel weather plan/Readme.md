@@ -1,3 +1,4 @@
+Tests  
 Passed:1. You should have a variable named distance_mi.  
 Passed:2. You should assign a number to your distance_mi variable.  
 Passed:3. You should have a variable named is_raining.  
