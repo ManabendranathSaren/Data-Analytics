@@ -1,2 +1,2 @@
 # Data-Analytics
-Portfolio projects on Data Analytics
+Freecodecamp projects on Data Analytics using Python
