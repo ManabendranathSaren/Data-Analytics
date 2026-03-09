@@ -1,6 +1,6 @@
 first_name = "John"
 last_name = "Doe"
-full_name = first_name + ' ' + last_name  #String constrainting
+full_name = first_name + ' ' + last_name  #String concatenation
 address = "123 Main Street"
 address += ", Appartment 4B"
 age = 28
