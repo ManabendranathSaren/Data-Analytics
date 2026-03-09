@@ -1,7 +1,7 @@
 def apply_discount(price, discount):
-    if type(price) != (int or float) :
+    if type(price) != int and type(price) != float:
         print("The price should be a number")
-    elif type(discount) != (int or float):
+    elif type(discount) != int and type(discount) != float:
         print("The discount should be a number")
     elif price <= 0:
         print("The price should be greater than 0")
@@ -11,4 +11,4 @@ def apply_discount(price, discount):
         final_price = price-(price * discount/100)
         print("Final cost:", final_price)
 
-apply_discount(100,5)
+apply_discount(74.5,20.0)
