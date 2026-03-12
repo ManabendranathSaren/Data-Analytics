@@ -9,12 +9,12 @@ def caesar(text, shift, encrypt=True):
 
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
-    if not encrypt:
+    if not encrypt:    # For Decryption
         shift = - shift
     
     shifted_alphabet = alphabet[shift:] + alphabet[:shift]
-    translation_table = str.maketrans(alphabet + alphabet.upper(), shifted_alphabet + shifted_alphabet.upper())
-    encrypted_text = text.translate(translation_table)
+    translation_table = str.maketrans(alphabet + alphabet.upper(), shifted_alphabet + shifted_alphabet.upper())    #str.maketrans() fyntax used
+    encrypted_text = text.translate(translation_table)    #translate() syntax used
     return encrypted_text
 
 def encrypt(text, shift):
